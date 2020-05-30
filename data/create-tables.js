@@ -11,6 +11,7 @@ async function run() {
     await client.connect();
 
     // run a query to create tables
+    // seems like this stats table could be a bit chunkier. I'd like to have seen you hold on to a list of correctly answered questions, for example.
     await client.query(`
                 CREATE TABLE users (
                     id SERIAL PRIMARY KEY,
