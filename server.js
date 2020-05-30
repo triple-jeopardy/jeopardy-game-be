@@ -1,3 +1,5 @@
+// I'm wondering what you could have done to get all your tests passing. For example, if you can't predict the exact response you'd expect, you can predict the keys that the response should have.
+
 require('dotenv').config();
 require('./lib/client').connect();
 
